@@ -7,6 +7,36 @@
     <title>Mini Project #2</title>
 </head>
 <body>
-    
+    <!-- 1. Ask the user for a URL <br />
+    2. Check if the link starts with http <br />
+    3. If it doesn't start with http, fix the variable <br />
+    4. Inject a link into your page using  .innerHTML -->
+
+    <p>
+    This is the link:
+    <span id="link"></span>
+    </p>
+
+<script>
+    var url = prompt("Enter a URL");
+
+    if(url == null){
+     console.error("Missing input")
+    }else{
+      if (url.substr(0,4) != "http"){
+          url= "http://" + url
+      }
+  
+      var spanNode = document.getElementById("link");
+      var html =  "<a href= '" + "'>" + url + "</a>";
+      spanNode.innerHTML = html;
+
+    }
+
+
+
+</script>
+
+
 </body>
 </html>
