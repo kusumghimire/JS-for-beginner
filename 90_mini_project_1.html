@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Project #1</title>
+</head>
+
+<body>
+  <!-- concanate string and variable together -->
+  <!-- using .innerHTML and getELementById change the innertHTML of an element
+    to be what your variable is  -->
+
+  <h1>
+    My favorite cate is
+    <span id="catname">Zephyr</span>
+  </h1>
+
+  <script>
+    var catname = document.getElementById("catname");
+    var zephyr = catname.innerText;
+    var cats = zephyr + " and Henry";
+    catname.innerText = cats;
+
+  </script>
+</body>
+
+</html>
