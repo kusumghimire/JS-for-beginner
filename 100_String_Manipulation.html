@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>String Manipulation</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Manipulation</title>
 </head>
+
 <body>
-    
+
+  <h1 id="sentence">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi sit eius commodi libero eveniet voluptatem ex
+    id, sed ut numquam, corporis reiciendis quasi nihil obcaecati excepturi ab est sapiente!s
+  </h1>
+
+  <script>
+    var sentenceNode = document.getElementById("sentence")
+    // Everthing within the double quotation is string
+    var sentence = sentenceNode.innerText
+
+    var upperSentence = sentence.toUpperCase()
+    var lowerSentence = sentence.toLocaleLowerCase()
+    var firstTenChars = sentence.substr(10)
+  </script>
+
 </body>
+
 </html>
