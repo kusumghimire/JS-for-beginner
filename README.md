@@ -2,4 +2,6 @@
 
  <!-- When ever using Prompt input always comes at string -->
 
-     var name = "Kusum"; //assignment operator
+  #   var name = "Kusum"; //assignment operator
+  
+
