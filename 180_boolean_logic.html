@@ -13,14 +13,31 @@
   <!-- true or false -->
 
   <script>
-    var isCat = false;
+    var name = prompt("Enter Name")
 
-    if (isCat == true){
-      console.log("Zephyr is a cat");
-    }else{
-      console.log("Is not a cat")
+    if (name.toLowerCase() == "zephyr") {
+      var isCat = true;
+    } else {
+      var isCat = false;
     }
+
+
+    // if (isCat == true) {
+    //   console.log("Zephyr is a cat");
+    // } else {
+    //   console.log("Is not a cat")
+    // }
+
+// Some other Logic in here based on the variable isCat
+
+if(isCat){
+  alert("You are a cat !")
+}else {
+  alert("Your are not a cat !")
+}
+
   </script>
 
 </body>
+
 </html>
