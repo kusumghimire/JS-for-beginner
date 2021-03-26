@@ -2,32 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>If/Else if/ Else</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>If/Else if/ Else</title>
 </head>
 
 <body>
 
-    <script>
+  <script>
 
-        var name = "Kusum";
+// Both else, else if function are same like switch and break function
 
-        if (name == "Kusum") {
-            console.log("Awesome");
-        } else if (name == "Zephyr") {
-            console.log("meow");
-        }else if(name == "Henry") {
-console.log("Little Meow");
-        } else{
-         console.warn("Not Handled")
-        }
+    var name = "DOo";
+    if (name == "Kusum") {
+      console.log("Awesome");
+    } else if (name == "Zephyr") {
+      console.log("meow");
+    } else if (name == "Henry") {
+      console.log("Little Meow");
+    } else {
+      console.warn("Not Handled")
+    }
+
+
+    var familyMember = "Nathan";
+
+    switch (familyMember) {
+      case "Kusum ":
+        console.log("Hi Kusum");
+        break;
+      case "Nathan":
+        console.log("Hi Nathan");
+        break;
+        console.warn("Not handled")
+        break;
+    }
 
 
 
-
-    </script>
+  </script>
 
 </body>
 
