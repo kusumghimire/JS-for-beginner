@@ -27,19 +27,23 @@
   </ol>
 
   <script>
-    function tip(totalAmount, tip = 10) {
+    function tip(totalAmount, tip = 10, returnTipOnly = false) {
       tip = tip / 100 //10 -> 0.10
       console.log("tip as a % is ", tip)
       var tipAmount = totalAmount * tip
       console.log(tipAmount, "is the tip amount")
       totalAmount = totalAmount + tipAmount
-      console.log(totalBill, "is the total amount")
+      if(returnTipOnly){
+        return tipAmount
+      }
       return totalAmount
     }
 
     var totalBill = tip (25, 10);
     console.log(totalBill)
 
+    var totalTip = tip (25, 10, true );
+    console.log(totalTip)
 
   </script>
 
