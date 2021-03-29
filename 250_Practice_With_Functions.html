@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratice With FUnctions</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratice With FUnctions</title>
 </head>
+
 <body>
-    
-    
+
+  <!-- DRY = Dont Repeat Yourself -->
+
+  <h1 id="title">
+
+  </h1>
+  <script>
+
+    // function doMath(num) {
+    //   num = Number(num);
+    //   if (num) {
+    //     // Is a real number
+    //     var newNumber = (num + 100) / 4
+    //     return newNumber;
+    //   } else {
+    //     // Not a real number
+    //     return false;
+    //   }
+    // }
+
+    // var customNum = doMath("Kusum");
+    // console.log(customNum)
+
+    // var customNum = doMath(30);
+    // console.log(customNum)
+
+    // var customNum = doMath(40);
+    // console.log(customNum)
+
+    // First function ends here
+
+    //     function $(id) {
+    //       console.log("Id is :", id)
+    //       return
+    //     }
+    //     var title = document.getElementById("title");
+    //     title.innerText = "Custom inner text"
+
+    //     var customElem = $("customId")
+    //     customElem.innerHTML = "Something Here"
+    // // Function to know whether what given ID is ends here
+
+    // Celcuius to fahrenheit
+    function cToF(c_num) {
+      var fahrenheit = (c_num * 1.8) + 32;
+      return fahrenheit;
+    }
+    var zero = cToF(0); console.log(zero);
+    var twenty = cToF(20); console.log(twenty);
+    var boiling = cToF(100); console.log(boiling);
+    var freezing = cToF(-40); console.log(freezing);
+
+    // Conclusion is 
+    function name() {
+      return "return something"
+    }
+    var name = name () 
+    // or simply name()
+
+  </script>
+
 </body>
+
 </html>
