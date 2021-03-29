@@ -2,16 +2,13 @@
 
  <!-- When ever using Prompt input always comes at string -->
 
-  #   var name = "Kusum"; //assignment operator
-  # B Brackets
-  # E Exponents
-
-  # D Division
-  # M Mulitplication
-
-  # A Addition
-
-  # S Substraction
+  <!-- var name = "Kusum"; //assignment operator -->
+   <!-- B Brackets -->
+  <!--  E Exponents -->
+  <!--  D Division -->
+  <!--  M Mulitplication -->
+  <!--  A Addition -->
+  <!-- S Substraction -->
 
 
-
+# Javascript for Beginner (incluses 6 + real life projects) from SkillShare
