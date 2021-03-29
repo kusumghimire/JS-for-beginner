@@ -28,12 +28,11 @@
       num = Number(num)
       console.log(typeof(num)) //Number
 
-      if (num){
-        if(num >= 18){
+      if (num && num >= 18){       
           var elem = document.getElementById("elem");
           elem.innerHTML = "You are 18 or older !!!"         
         }
-      }
+
     </script>
 
 </body>
