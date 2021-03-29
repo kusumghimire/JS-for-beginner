@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions</title>
 </head>
+
 <body>
-    
+
+  <script>
+    function greeting(name = "Zephyr", age = 4) {
+      console.log("Hello " + name)
+      console.log("Age is " + age)
+      return "SpaceX"
+    }
+    var defaultName = greeting()
+    var Kusum = greeting(" Kusum", 24)
+    var Zephyr = greeting(" Zephyr", 2)
+
+  </script>
 </body>
+
 </html>
